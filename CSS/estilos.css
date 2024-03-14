@@ -6,6 +6,10 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+img {
+    max-width: 100%;
+}
+
 #container {
     background-color: rgb(243, 238, 231);
     margin: auto;
@@ -25,7 +29,7 @@ h1{
 /*decoração de título*/
 
 .box-decorado {
-    border-top: 10px ;
+    border-radius: 9px;
     background-color: darkgray;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -45,8 +49,45 @@ h2{
     padding-bottom: 8px;
 }
 
+a{
+    text-decoration: none;
+    background-color: rgba(219, 219, 219, 0.651);
+    border-radius: 8px;
+    padding: 10px;
+    border-style: groove;
+    transform: scale(1);
+    transition: 0.5s;
+}
 
 
+
+a:hover, a:focus{
+    transform: scale(1.2);
+    transition: 0.5s;
+    
+}
+
+a:hover, a:focus{
+    background-color: cadetblue;
+    color: rgb(60, 255, 0);
+}
+
+li {
+    list-style: none;
+}
+
+nav a{
+    padding: 0;
+    text-align: start;
+    display: inline-block;
+    align-content: flex-start;
+}
+
+figure{
+    background-color: rgba(163, 163, 163, 0.425);
+    border-style:solid;
+    border-inline-color: red;
+}
 
 
 
