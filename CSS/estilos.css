@@ -1,0 +1,49 @@
+body {
+    background-image: url(../imagens/robot-background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    background-color: rgb(243, 238, 231);
+    margin: auto;
+    height: auto;
+    width: 70%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1{
+    text-shadow: rgba(0, 0, 0, 0.356) 3px 3px 8px;
+    text-transform: uppercase;
+}
+
+/*decoração de título*/
+
+.box-decorado {
+    border-top: 10px ;
+    background-color: darkgray;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: 3px 3px 8px -1.5px;
+}
+
+hr{
+    border-color: rgb(0, 188, 212);
+    border-style:dashed;
+}
+
+h2{
+    font-size: 25px;
+    border-style: groove ;
+    background-color: rgba(0, 104, 104, 0.699);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+
+
+
