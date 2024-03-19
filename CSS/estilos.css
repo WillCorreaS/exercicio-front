@@ -3,6 +3,8 @@ body {
     background: rgb(255, 255, 255);
 }
 
+hr {border:hidden 3px;}
+
 
 .flex-container {
     display: flex;
