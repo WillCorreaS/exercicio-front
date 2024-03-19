@@ -1,6 +1,12 @@
 body {
+    margin: 0%;
+    padding: 10px;
+    height: 70%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: rgb(255, 255, 255);
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 hr {border:hidden 3px;}
@@ -8,9 +14,9 @@ hr {border:hidden 3px;}
 
 .flex-container {
     display: flex;
-    justify-content: space-between; 
-    align-items: flex-start; 
-    flex-direction: row;  
+    justify-content:space-evenly; 
+    flex-direction:row;
+    
 
     background-color: #ffffff;
     height: 100%;
