@@ -1,9 +1,11 @@
 body {
+    background: rgb(255, 255, 255);
     margin: 0%;
     padding: 10px;
+    margin-top: 10px;
     height: 70%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: rgb(255, 255, 255);
+
     text-align: center;
     padding-left: 15%;
     padding-right: 15%;
@@ -11,20 +13,31 @@ body {
 
 hr {
     margin-top: 50px;
-    border:hidden 3px;}
+    border:hidden 3px;
+}
 
 
 .flex-container {
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content:space-between; 
+    justify-content:space-around; 
     flex-direction:row;
-    flex-wrap: wrap;
     
     background-color: #ffffff;
-    height: 100%;
-    padding: 15px;
     text-decoration: none;
-  }
+}
+
+header nav{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    width: 50%;
+    text-align: left;
+}
 
 .botao {
 	box-shadow:inset 0px 1px 0px 0px #fce2c1;
@@ -54,7 +67,7 @@ h1{
     margin: 0%;
     font-family: "Madimi One", sans-serif;
     font-weight: bold;
-    text-align: center;
+    font-size: 26px;
     color: #ff9f0e;
     text-shadow: #00000088 1px 1px 2px;
     text-transform: uppercase;
@@ -71,14 +84,18 @@ h2 {text-shadow: #b3b3b3 1px 1px 2px; text-transform: uppercase;}
 
 .logos-container{
     display: flex;
+    justify-content: space-evenly;
+    text-align:end;
+    text-shadow: #919191 1px 1px 3px;
+    list-style: none;
 }
 
 .links-container{
     display: flex;
-    justify-content:space-between; 
-    flex-direction:row;
-    flex-wrap: wrap;
+    justify-content:flex-start; 
+    flex-direction:column;
     padding: 3px;
+    text-align: left;
 }
 
 figure {
@@ -91,4 +108,38 @@ figure:hover{
     transform: scale(1);
     transition: 0.4s;
     filter: grayscale(0%);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    text-shadow: #919191 1px 1px 2px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.botaoB {
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:linear-gradient(to bottom, #ffc477 5%, #fa9d23 100%);
+	background-color:#919191;
+	border-radius:6px;
+	border:1px solid #afafaf;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:18px;
+	font-weight:bold;
+	padding:5px 20px;
+	text-shadow:0px 1px 0px #be9d63;
+}
+
+.botaoB:hover {
+	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	background-color:#fb9e25;
+}
+
+.botaoB:active {
+	position:relative;
+	top:1px;
 }
