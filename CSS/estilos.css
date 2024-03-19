@@ -71,6 +71,24 @@ h2 {text-shadow: #b3b3b3 1px 1px 2px; text-transform: uppercase;}
 
 .logos-container{
     display: flex;
-    
+}
 
+.links-container{
+    display: flex;
+    justify-content:space-between; 
+    flex-direction:row;
+    flex-wrap: wrap;
+    padding: 3px;
+}
+
+figure {
+    transform: scale(0.95);
+    transition: 0.4s;
+    filter: grayscale(100%);
+}
+
+figure:hover{
+    transform: scale(1);
+    transition: 0.4s;
+    filter: grayscale(0%);
 }
